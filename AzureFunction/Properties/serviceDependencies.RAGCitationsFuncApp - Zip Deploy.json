@@ -1,0 +1,22 @@
+{
+  "dependencies": {
+    "appInsights1": {
+      "resourceId": "/subscriptions/[parameters('subscriptionId')]/resourceGroups/[parameters('resourceGroupName')]/providers/microsoft.insights/components/aistudioflow7552864893",
+      "type": "appInsights.azure",
+      "connectionId": "APPLICATIONINSIGHTS_CONNECTION_STRING"
+    },
+    "storage1": {
+      "resourceId": "/subscriptions/[parameters('subscriptionId')]/resourceGroups/[parameters('resourceGroupName')]/providers/Microsoft.Storage/storageAccounts/ragcitationsstoracc",
+      "type": "storage.azure",
+      "connectionId": "AzureWebJobsStorage"
+    },
+    "storage2": {
+      "serviceConnectorResourceId": "/subscriptions/[parameters('subscriptionId')]/resourcegroups/[parameters('resourceGroupName')]/providers/Microsoft.Web/sites/RAGCitationsFuncApp/providers/Microsoft.ServiceLinker/linkers/AzureBlobConnectionString_2EEB45BFA3, /subscriptions/d6233897-5c9f-47f9-8507-6d4ada2d5183/resourcegroups/IBM-MS-Labs-RG/providers/Microsoft.Web/sites/RAGCitationsFuncApp/providers/Microsoft.ServiceLinker/linkers/AzureBlobConnectionString_29A2217E0B",
+      "secretStore": "AzureAppSettings",
+      "resourceId": "/subscriptions/[parameters('subscriptionId')]/resourceGroups/[parameters('resourceGroupName')]/providers/Microsoft.Storage/storageAccounts/ragcitationsstoracc",
+      "type": "storage.azure",
+      "connectionId": "AzureBlobConnectionString",
+      "dynamicId": null
+    }
+  }
+}

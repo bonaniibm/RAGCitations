@@ -1,0 +1,16 @@
+[import](common.lg)
+
+# SendActivity_Greeting()
+[Activity
+    Text = ${SendActivity_Greeting_text()}
+]
+
+# SendActivity_Greeting_text()
+- Welcome to the Citations Copilot! Ask a question to get started.
+# SendActivity_Z8ZnYk()
+[Activity
+    Text = ${SendActivity_Z8ZnYk_text()}
+]
+
+# SendActivity_Z8ZnYk_text()
+- ${dialog.response.content.answer}

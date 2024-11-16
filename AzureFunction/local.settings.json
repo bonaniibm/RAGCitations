@@ -1,0 +1,23 @@
+{
+  "IsEncrypted": false,
+  "Values": {
+    "AzureWebJobsStorage": "UseDevelopmentStorage=true",
+    "FUNCTIONS_WORKER_RUNTIME": "dotnet-isolated",
+    "FormRecognizerEndpoint": "https://[form-recognizer-name].cognitiveservices.azure.com/",
+    "FormRecognizerKey": "[form-recognizer-key]",
+    "OpenAIEndpoint": "https://[openai-instance-name].openai.azure.com/",
+    "OpenAIKey": "[openai-key]",
+    "EmbeddingDeploymentName": "text-embedding-ada-002",
+    "ChatCompletionDeploymentName": "gpt-4o",
+    "SearchServiceEndpoint": "https://[search-service-name].search.windows.net",
+    "SearchApiKey": "[search-api-key]",
+    "SearchIndexName": "[search-index-name]",
+    "BlobStorageBaseUrl": "https://[storage-account-name].blob.core.windows.net",
+    "BlobContainerName": "[container-name]",
+    "StorageAccountName": "[storage-account-name]",
+    "StorageAccountKey": "[storage-account-key]",
+    "AzureBlobConnectionString": "DefaultEndpointsProtocol=https;AccountName=[storage-account-name];AccountKey=[storage-account-key];EndpointSuffix=core.windows.net",
+    "WEBSITE_HOSTNAME": "[function-app-name].azurewebsites.net",
+    "AllowedOrigins": "*"
+  }
+}
